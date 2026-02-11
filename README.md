@@ -89,7 +89,3 @@ git clone https://github.com/ShuleCai/MetaAMR_Plastisphere.git
 ```
 2. Run any script in `scripts/` to regenerate its figure; missing packages are installed automatically.
 3. Outputs are written to `figures/` in PDF format.
-
-## Citation
-If you use this code for your research, please cite us:
-> Shu-Le Li, et al. XXX
