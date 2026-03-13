@@ -119,5 +119,5 @@ network_plot <- ggraph(lay, rescale = F) +
             override.aes = list(edge_width = 2)
         )
     )
-ggsave("./figures/Fig4.pdf", network_plot, width = 10, height = 8)
+ggsave("./figures/Fig4.pdf", network_plot, width = 12, height = 7)
 

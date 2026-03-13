@@ -7,8 +7,8 @@ for (p in pkgs) {
 }
 
 data_df <- read.csv("./data/Fig2a.csv")
-var_levels <- c("Quinolone", "Polymyxin", "Beta_lactam", "Bacitracin", "Aminoglycoside", "Vancomycin",
-                "Rifamycin", "Fosfomycin", "Sulfonamide", "Mls", "Tetracycline")  
+var_levels <- c("Quinolone", "Polymyxin", "Beta-lactam", "Bacitracin", "Aminoglycoside", "Glycopeptide",
+                "Rifamycin", "Fosfomycin", "Sulfonamide", "MLS", "Tetracycline")  
 
 plot_func <- function(split_name) {
   effect_df <- data_df %>% filter(split == split_name) %>% mutate(var = factor(var, levels = var_levels),

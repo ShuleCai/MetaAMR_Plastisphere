@@ -6,7 +6,7 @@ for (p in pkgs) {
   library(p, character.only = TRUE)
 }
 
-sorted_names <- c("Total", "Quinolone", "Polymyxin", "Beta-lactam", "Bacitracin", "Aminoglycoside", "Glycopeptide", "Rifamycin", "Sulfonamide", "MLS", "Tetracenomycin_C", "Tetracycline")
+sorted_names <- c("Total", "Quinolone", "Polymyxin", "Beta-lactam", "Bacitracin", "Aminoglycoside", "Glycopeptide", "Rifamycin", "Sulfonamide", "MLS", "Tetracenomycin_c", "Tetracycline")
 freshwater_ta_f <- read.csv("./data/Fig5a1.csv") %>% mutate(ARG_category = factor(ARG_category, levels = sorted_names))
 marine_ta_f <- read.csv("./data/Fig5a2.csv") %>% mutate(ARG_category = factor(ARG_category, levels = sorted_names))
 

@@ -1,4 +1,4 @@
-"","Bacitracin","Beta_lactam","MLS","Quinolone","Vancomycin","Aminoglycoside","Polymyxin","Tetracycline","Rifamycin","Sulfonamide","Tetracenomycin_c"
+"","Bacitracin","Beta-lactam","MLS","Quinolone","Glycopeptide","Aminoglycoside","Polymyxin","Tetracycline","Rifamycin","Sulfonamide","Tetracenomycin_c"
 "Aeromonas caviae",0.131468164252874,0.0290842557385057,0.211925615779885,0.025387398637931,0.169254430518966,NA,0.00671374018390805,0.0361589806005747,NA,0.131336388931034,NA
 "Aeromonas hydrophila",0.00757636862068966,0.00100126118218391,0.418401906342299,NA,0.166211313617241,NA,0.000722714775862069,0.00251718657413793,NA,NA,NA
 "Aeromonas salmonicida",0.122607509514943,NA,0.49010225294023,0.0359365395287356,0.18951724288908,0.0066369467183908,NA,0.0889104618304598,NA,NA,NA
